@@ -4,10 +4,16 @@ body {
     /*min-height:100%;*/
 
 }
+canvas{
+    display: block;
+    box-sizing: border-box;
+    border: solid 1px white;
+       /*width: 100%;*/
+}
 
 .main-container {
     min-height:100%;
-    /*background:url("./assets/homepage-background.jpg") no-repeat center center fixed;*/
+    background:url("./assets/homepage-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,11 +26,43 @@ body {
     left: 0;
 }
 
-.main-container .homepage-logo {
+.homepage-logo {
     width: 800px;
     position: relative;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 40%;
     cursor: url(./assets/pointer.svg), auto;
+    z-index: 1;
 
 }
+
+.senthings-bar {
+    display:flex;
+    flex-direction: column;
+    margin:0 !important;
+    padding: 0 !important;
+
+}
+.senthings-square {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-logo:hover {
+    width: 400px;
+    margin-left: 100px;
+    background: url("./assets/long-logo.svg") ;
+}
+
+.nav-hamburger {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+
