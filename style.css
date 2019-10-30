@@ -155,7 +155,7 @@ body {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 812px) {
     /* Styles */
     .senthings-bar {
         width: 100%;
