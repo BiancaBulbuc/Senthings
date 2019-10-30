@@ -1,0 +1,98 @@
+.main-container {
+    width: 100%;
+    max-height: 100%;
+}
+
+.homepage-content {
+    position: relative;
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+    margin-top: 5%;
+
+}
+.service {
+    height: 100%;
+    padding: 0% 3%;
+}
+
+.side-services-menu {
+    width: 150px;
+    height: 400px;
+    background-color: #535b8296;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.scroll-services {
+    overflow-y: scroll;
+}
+
+.consultancy-icon{
+    width: 100px;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.list-group-item-action {
+    background-color: transparent !important;
+    border: none;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 812px) {
+    /* Styles */
+    .homepage-content {
+        position: relative;
+        max-width: 375px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        /*border: 1px solid red;*/
+
+    }
+    .service {
+        height: 100%;
+        padding: 0% 3%;
+    }
+
+    .side-services-menu {
+       display: none;
+    }
+
+    .scroll-services {
+        overflow-y: scroll;
+    }
+
+    .consultancy-icon{
+        width: 100px;
+        height: auto;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-start;
+    }
+
+    .list-group-item-action {
+        background-color: transparent !important;
+        border: none;
+    }
+
+}
