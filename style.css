@@ -4,13 +4,6 @@ body {
     /*min-height:100%;*/
 
 }
-canvas{
-    display: block;
-    box-sizing: border-box;
-    border: solid 1px white;
-       /*width: 100%;*/
-}
-
 .main-container {
     min-height:100%;
     background:url("./assets/homepage-background.jpg") no-repeat center center fixed;
@@ -72,18 +65,52 @@ canvas{
 }
 
 .senthings-menu{
-    width: 20.7%;
-    margin-left: 65%;
-    margin-top:5px;
-    background-color: #96aaaa96;
+    width: 10%;
+    margin-left: 76%;
+    margin-top: 15px;
+    background-color: #043a3a96;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
 .senthings-menu a {
-    color: white !important;
+    color: #0adcc8 !important;
     border-bottom: 1px solid white;
-    padding-left: 5px !important;
-    text-transform: uppercase;
+    padding-left: 10px !important;
+    text-transform: capitalize;
     font-weight: 700;
+}
+
+.menu-link {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+
+}
+
+.menu-link a {
+    align-items: center;
+    border-bottom: none;
+}
+
+.menu-link-icon {
+    align-items: center;
+    color:#0adcc8;
+}
+.contact-menu {
+
+}
+.no-border {
+    border-bottom: none !important;
+
+}
+
+.menu-space{
+    height: 10px;
+    background-color: #1b1e2196;
 }
 
 .homepage-content {
