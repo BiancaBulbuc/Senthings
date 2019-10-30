@@ -82,7 +82,10 @@
         width: 100px;
         height: auto;
     }
-
+    .consultancy-icon{
+        width: 30px;
+        height: auto;
+    }
     .title {
         display: flex;
         flex-direction: row;
