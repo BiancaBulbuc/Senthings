@@ -19,8 +19,9 @@ body {
     margin: 0 !important;
     border: none;
 }
+
 .senthings-menu {
-    width: 10%;
+    width: 15%;
     margin-left: 71%;
     margin-top: 9%;
     background-color: #535b8296;
@@ -95,30 +96,64 @@ body {
 
 }
 
-.border-right{
-    border-right: 1px solid #22303f;
+.border-right-footer {
+    border-right: 2px solid #22303f;
     width: 20px;
-    height: 40px;
+    height: 30px;
+    margin-right: 10px;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .footer {
-    width:100%;
+    width:1200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    margin-bottom: 1%;
 }
 
-.footer-row {
+.footer-row-logo {
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
 }
 
-.footer-logo{
-    width: 100px;
+.footer-row-links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.footer-row-logo p {
+    margin: 0px;
+    padding: 0px 20px;
+    align-self: center;
+    color: #535b82 !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-row-links a {
+    align-self: center;
+
+}
+
+.footer-row-links h4 {
+    color: #535b82 !important;
+    font-size: 16px;
+    font-weight: bold; 
+
+}
+
+.footer-logo {
+    width: 60px;
     height: auto; 
 }
 
@@ -195,21 +230,24 @@ body {
 
     .homepage-content .text {
         color: #535b82 !important;
-        font-weight: 700;
-        margin-top: 10%;
-        margin-left: 100px;
+        font-weight: 700;  
         text-align: left;
+        align-self: center                      
     }
 
     .text .sen {
         font-weight: bold;
     }
 
+    .homepage-image-container {
+        display: flex;
+    }
 
     .homepage-image {
-        width: 700px;
-        margin-left: 10%;
+        width: 700px; 
+        align-self: center;
     }
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -287,7 +325,16 @@ body {
         margin-top: 10px;
         margin-left: 10px;
     }
+    
+    .footer {
+        max-width:1200px; 
+        flex-direction: column; 
+        
+    }
 
+    .footer-row-logo {
+        font-size: 14px;
+    }
 }
 
 
