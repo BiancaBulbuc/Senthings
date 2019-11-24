@@ -1,4 +1,4 @@
-$('body').scrollspy({ target: '#navbar-example' });
+$('body').scrollspy({ target: '#navbar-example2' });
 $('[data-spy="scroll"]').each(function () {
     var $spy = $(this).scrollspy('refresh')
 });

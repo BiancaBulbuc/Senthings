@@ -1,0 +1,44 @@
+.contact-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.contact-title {
+    padding: 100px;
+}
+
+.contact-content .contact-title {
+    width: 40%;
+    align-self: center;
+    justify-self: center;
+}
+
+.contact-content h1 {
+    font-size: 50px !important;
+    margin-top: -50px;
+    font-weight: 900 !important;
+    color: #535b82 !important;
+
+}
+.contact-title h2 {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #535b82 !important;
+    
+}
+
+.content-title img {
+    width: 300px;
+}
+
+.contact-form {
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    padding: 50px;
+}
