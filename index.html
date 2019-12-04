@@ -78,6 +78,19 @@
                 </ul>
             </div>
         </nav>
+
+
+        <form name = "myform" action = "">
+            Enter name: <input type = "text" name = "customer"/>
+            <input type = "button" value = "Set Cookie" onclick = "WriteCookie();"/>
+         </form>
+         <form name = "myform" action = "">
+            <p> click the following button and see the result:</p>
+            <input type = "button" value = "Get Cookie" onclick = "ReadCookie()"/>
+         </form>  
+
+
+         
         <div class="homepage-content">
             <div class="text">
                 <h1 class="sen">Senthings,</h1>
@@ -87,6 +100,7 @@
                 <img class="homepage-image" src="./assets/Untitled-1.png">
             </div>
         </div>
+    
     </div>
 </body>
 
@@ -99,6 +113,10 @@
         crossorigin="anonymous"></script>
 <!-- Optional JavaScript -->
 <script src="main.js"></script>
+<script src="cookie.js"></script>
+
+<script src="jquery.js"></script>
+<script src="jquery.cookie.js"></script>
 
 <script>
     $('.navbar-nav>li>a').on('click', function () {
